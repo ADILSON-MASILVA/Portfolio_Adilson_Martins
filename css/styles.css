@@ -1,26 +1,3 @@
-/*body {
-    font-family: 'Arial', sans-serif;
-    margin: 20px;
-    background-color: #f2f2f2;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, #ffcccb, #ffb6b4); /* Gradiente de cor de fundo 
-} 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('E:\SENAC_FULL_STACK DEV\Portfolio_Adilson_Martins\img\imagem-de-fundo.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-/* Restante do seu CSS... */
-
-/* Restante do seu CSS... */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,10 +6,9 @@ body {
     background-size: cover;
 }
 
-/* Adicione este estilo para aplicar a transição */
 header img:hover {
-    transform: scale(1.1); /* Ajuste o valor conforme necessário para aumentar o tamanho */
-    transition: transform 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
 }
 
 header {
@@ -71,13 +47,10 @@ a:hover {
 .experience, .education {
     margin-bottom: 20px;
 }
-
-/* Adicione esta regra CSS para destacar o botão de rádio selecionado */
 .selected {
-    background-color: #e6f7ff; /* Cor de fundo para destacar a seleção */
+    background-color: #e6f7ff; 
 }
 
-/* Adicione esta regra CSS para o gráfico de percentual */
 #percentual-chart-container {
     background-color: #f2f2f2;
     height: 20px;
@@ -86,10 +59,10 @@ a:hover {
 }
 
 #percentual-chart {
-    background-color: #4CAF50; /* Cor da barra de percentual */
+    background-color: #4CAF50; 
     height: 100%;
     width: 0;
-    transition: width 0.5s; /* Adiciona transição para suavizar a animação */
+    transition: width 0.5s; 
     line-height: 20px;
     color: white;
     text-align: center;
@@ -97,24 +70,20 @@ a:hover {
 }
 
 .selected {
-    background-color: #c1e1c1; /* Cor de fundo para destacar a seleção */
+    background-color: #c1e1c1; 
 }
 
-/* ... Seu CSS existente ... */
-
-/* Adicione a cor de fundo quando o radio estiver selecionado */
 label.selected {
     background-color: #c1e1c1;
 }
-/* Adicione estilos para o logotipo arredondado */
+
 #logo {
-    width: 160px; /* Ajuste conforme necessário */
-    height: 160px; /* Ajuste conforme necessário */
-    border-radius: 50%; /* Faz o logotipo ter bordas arredondadas */
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
     margin-right: 10px;
 }
 
-/* Adicione estilos para o cabeçalho fixo */
 #fixed-header {
     position: fixed;
     top: 0;
@@ -122,7 +91,7 @@ label.selected {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #4CAF50;
+    background-color: #EE5A24;
     color: white;
     padding: 10px;
 }
@@ -131,13 +100,12 @@ label.selected {
     flex: 1;
 }
 
-/* Adicione estilos para o conteúdo para compensar o cabeçalho fixo */
 body {
     font-family: Arial, sans-serif;
-    margin: 70px 20px 20px; /* 70px para compensar a altura do cabeçalho fixo */
+    margin: 70px 20px 20px; 
     background-color: #f2f2f2;
 }
-    /* Adicione estilos para os ícones de educação */
+    
 .education-item {
     display: flex;
     align-items: center;
@@ -145,23 +113,23 @@ body {
 }
 
 .education-icon {
-    width: 30px; /* Ajuste conforme necessário */
-    height: 30px; /* Ajuste conforme necessário */
+    width: 30px; 
+    height: 30px; 
     margin-right: 10px;
 }
 
 #logo-section img {
-    max-width: 100px; /* Ajuste o tamanho máximo do logotipo conforme necessário */
-    border-radius: 50%; /* Torna a borda da imagem arredondada (50% do tamanho da imagem) */
+    max-width: 100px; 
+    border-radius: 50%; 
 }
 
 #linkedin-logo {
-    max-width: 50px; /* Ajuste o tamanho máximo do logotipo conforme necessário */
-    border-radius: 50%; /* Torna a borda da imagem arredondada (50% do tamanho da imagem) */
+    max-width: 50px; 
+    border-radius: 50%; 
 }
 
 #linkedin-logo img {
-    width: 10%; /* Garante que a imagem preencha a área do contêiner */
+    width: 10%; /
 }
 
 #linkedin-logo a {
