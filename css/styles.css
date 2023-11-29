@@ -135,3 +135,12 @@ body {
 #linkedin-logo a {
     text-decoration: none;
 }
+
+/*   Teste do copyright  */
+
+.copyright{
+    padding: 20px;
+    background: var(--main-color);
+    text-align: center;
+    color: #fff;
+}
